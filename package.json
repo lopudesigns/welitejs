@@ -1,6 +1,6 @@
 {
   "name": "welitejs",
-  "version": "1.1.111",
+  "version": "1.1.112",
   "description": "A lightweight JavaScript library for the Protocol",
   "repository": {
     "url": "git://github.com/WeYouMe/welitejs.git",
@@ -16,9 +16,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-		"prepare": "npm run build",
-		"push" : "./scripts/push.sh",
-		"pull" : "./scripts/pull.sh"
+    "prepare": "npm run build",
+    "push": "./scripts/push.sh",
+    "pull": "./scripts/pull.sh"
   },
   "dependencies": {
     "ws": "^4.0.0"
