@@ -45,7 +45,7 @@ export default class Client {
       this.open = false;
     });
 
-    this.ws.addEventListener('error', (err) => console.error('err', err));
+    // this.ws.addEventListener('error', (err) => console.error('err', err));
   }
 
   subscribe(cb) {
